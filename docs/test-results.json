@@ -1,0 +1,269 @@
+{
+  "mode": "in-memory HTML/CSS/JS; CSP bypassed for test",
+  "results": [
+    {
+      "test": "initial demo and enabled PNG export",
+      "status": "PASS"
+    },
+    {
+      "test": "donation is disabled until configured",
+      "status": "PASS"
+    },
+    {
+      "test": "partner section hidden without real links",
+      "status": "PASS"
+    },
+    {
+      "test": "local raster image loads with original dimensions",
+      "status": "PASS"
+    },
+    {
+      "test": "only one live file object URL",
+      "status": "PASS"
+    },
+    {
+      "test": "download succeeds: clean.png",
+      "status": "PASS"
+    },
+    {
+      "test": "vertical clean PNG resolution",
+      "status": "PASS"
+    },
+    {
+      "test": "clean center pixel matches uploaded image",
+      "status": "PASS"
+    },
+    {
+      "test": "download succeeds: reference.png",
+      "status": "PASS"
+    },
+    {
+      "test": "preview contains overlays excluded from clean PNG",
+      "status": "PASS"
+    },
+    {
+      "test": "download succeeds: transparent-guide.png",
+      "status": "PASS"
+    },
+    {
+      "test": "guide center is truly transparent",
+      "status": "PASS"
+    },
+    {
+      "test": "guide edge retains translucent shading",
+      "status": "PASS"
+    },
+    {
+      "test": "download succeeds: contain.png",
+      "status": "PASS"
+    },
+    {
+      "test": "contain creates chosen canvas background",
+      "status": "PASS"
+    },
+    {
+      "test": "non-vertical canvas disables platform mockups",
+      "status": "PASS"
+    },
+    {
+      "test": "download succeeds: square.png",
+      "status": "PASS"
+    },
+    {
+      "test": "square export resolution",
+      "status": "PASS"
+    },
+    {
+      "test": "comparison switches to vertical",
+      "status": "PASS"
+    },
+    {
+      "test": "three comparison canvases visible",
+      "status": "PASS"
+    },
+    {
+      "test": "download succeeds: comparison.png",
+      "status": "PASS"
+    },
+    {
+      "test": "comparison sheet contains expected three-cell geometry",
+      "status": "PASS"
+    },
+    {
+      "test": "largest comparison size correctly disabled",
+      "status": "PASS"
+    },
+    {
+      "test": "zoom output updates",
+      "status": "PASS"
+    },
+    {
+      "test": "dragging repositions the image",
+      "status": "PASS"
+    },
+    {
+      "test": "keyboard panning works",
+      "status": "PASS"
+    },
+    {
+      "test": "custom guide margins applied",
+      "status": "PASS"
+    },
+    {
+      "test": "platform presets remain independent",
+      "status": "PASS"
+    },
+    {
+      "test": "custom margins persist while switching platform",
+      "status": "PASS"
+    },
+    {
+      "test": "caption preset intentionally restores preset margins",
+      "status": "PASS"
+    },
+    {
+      "test": "headline overlap warning",
+      "status": "PASS"
+    },
+    {
+      "test": "headline inside-guide message",
+      "status": "PASS"
+    },
+    {
+      "test": "guide toggle hides on-canvas badge",
+      "status": "PASS"
+    },
+    {
+      "test": "independent UI and grid switches",
+      "status": "PASS"
+    },
+    {
+      "test": "SVG upload rejected while preserving current media",
+      "status": "PASS"
+    },
+    {
+      "test": "corrupt image fails safely and does not leak object URL",
+      "status": "PASS"
+    },
+    {
+      "test": "WebM frame preview loads",
+      "status": "PASS"
+    },
+    {
+      "test": "video seeking changes the preview frame",
+      "status": "PASS"
+    },
+    {
+      "test": "download succeeds: video-frame.png",
+      "status": "PASS"
+    },
+    {
+      "test": "video frame exports to PNG",
+      "status": "PASS"
+    },
+    {
+      "test": "reset releases uploaded media",
+      "status": "PASS"
+    },
+    {
+      "test": "reset restores settings and demo",
+      "status": "PASS"
+    },
+    {
+      "test": "privacy dialog opens",
+      "status": "PASS"
+    },
+    {
+      "test": "privacy dialog closes with Escape",
+      "status": "PASS"
+    },
+    {
+      "test": "no horizontal overflow at 1440px",
+      "status": "PASS"
+    },
+    {
+      "test": "no horizontal overflow at 1280px",
+      "status": "PASS"
+    },
+    {
+      "test": "no horizontal overflow at 1024px",
+      "status": "PASS"
+    },
+    {
+      "test": "no horizontal overflow at 900px",
+      "status": "PASS"
+    },
+    {
+      "test": "no horizontal overflow at 768px",
+      "status": "PASS"
+    },
+    {
+      "test": "no horizontal overflow at 740px",
+      "status": "PASS"
+    },
+    {
+      "test": "no horizontal overflow at 390px",
+      "status": "PASS"
+    },
+    {
+      "test": "no horizontal overflow at 360px",
+      "status": "PASS"
+    },
+    {
+      "test": "no horizontal overflow at 320px",
+      "status": "PASS"
+    },
+    {
+      "test": "form controls have labels",
+      "status": "PASS"
+    },
+    {
+      "test": "tool did not make third-party HTTP requests",
+      "status": "PASS"
+    },
+    {
+      "test": "real HTTPS support URL activates button",
+      "status": "PASS"
+    },
+    {
+      "test": "support checkout opens externally and safely",
+      "status": "PASS"
+    },
+    {
+      "test": "unconfigured support notice is removed",
+      "status": "PASS"
+    },
+    {
+      "test": "unsafe partner links are skipped",
+      "status": "PASS"
+    },
+    {
+      "test": "affiliate disclosure and sponsored relation",
+      "status": "PASS"
+    },
+    {
+      "test": "partner copy cannot inject HTML",
+      "status": "PASS"
+    },
+    {
+      "test": "download succeeds: large-wide.png",
+      "status": "PASS"
+    },
+    {
+      "test": "large landscape output is 3840x2160",
+      "status": "PASS"
+    },
+    {
+      "test": "no JavaScript runtime errors",
+      "status": "PASS"
+    }
+  ],
+  "runtime_errors": [],
+  "unexpected_http_requests": [],
+  "checked_on": "2026-09-20",
+  "node_tests": {
+    "passed": 35,
+    "failed": 0
+  },
+  "static_checks": "Local references, unique IDs, label/fragment targets, no inline script/event handlers, CSP presence, and HTTP asset responses passed."
+}
