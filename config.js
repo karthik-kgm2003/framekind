@@ -3,7 +3,7 @@ window.FRAMEKIND_CONFIG = Object.freeze({
   developerName: "Karthik",
   // Paste your full HTTPS donation/profile URL between the quotes.
   // An empty value intentionally leaves payments disabled (no fake checkout).
-  donationUrl: "",
+  donationUrl: "https://bunq.me/KGokuladasMenon",
   donationLabel: "Support my work",
   // Optional full HTTPS GitHub repository URL. Empty hides the source-code link.
   repositoryUrl: "",
